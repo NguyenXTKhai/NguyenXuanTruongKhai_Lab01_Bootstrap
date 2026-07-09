@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="page-top">
+    <nav
+      class="navbar navbar-expand-lg studio-navbar"
+      aria-label="Primary navigation"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#page-top">
+          <img src="resources/navbar-logo.png" alt="Caterpillar" />
+        </a>
+        <button
+          class="navbar-toggler studio-toggler"
+          type="button"
+          data-menu-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Open menu"
+        >
+          Menu
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto text-uppercase fw-bold">
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero d-flex align-items-center text-center text-white">
+      <div class="container">
+        <p class="hero-kicker mb-3">Welcome To Our Studio!</p>
+        <h1 class="hero-title text-uppercase fw-bolder mx-auto">
+          It's Nice To Meet You
+        </h1>
+        <a
+          class="btn btn-warning studio-btn text-uppercase fw-bolder"
+          href="#services"
+          >Tell Me More</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section class="page-section" id="services">
+        <div class="container">
+          <div class="section-heading text-center">
+            <h2 class="text-uppercase fw-bolder">Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+
+          <div class="row g-5 text-center">
+            <div class="col-lg-4">
+              <span
+                class="service-icon d-inline-flex align-items-center justify-content-center rounded-circle"
+              >
+                <svg viewBox="0 0 64 64" aria-hidden="true">
+                  <path
+                    d="M15 17h6l6 25h24l6-18H26"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <circle cx="30" cy="52" r="4" fill="currentColor" />
+                  <circle cx="48" cy="52" r="4" fill="currentColor" />
+                </svg>
+              </span>
+              <h3 class="service-title fw-bolder">E-Commerce</h3>
+              <p class="service-text mx-auto">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+                maxime quam architecto quo inventore harum ex magni, dicta
+                impedit.
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <span
+                class="service-icon d-inline-flex align-items-center justify-content-center rounded-circle"
+              >
+                <svg viewBox="0 0 64 64" aria-hidden="true">
+                  <rect
+                    x="14"
+                    y="14"
+                    width="36"
+                    height="28"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="6"
+                  />
+                  <path
+                    d="M10 50h44"
+                    stroke="currentColor"
+                    stroke-width="6"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <h3 class="service-title fw-bolder">Responsive Design</h3>
+              <p class="service-text mx-auto">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+                maxime quam architecto quo inventore harum ex magni, dicta
+                impedit.
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <span
+                class="service-icon d-inline-flex align-items-center justify-content-center rounded-circle"
+              >
+                <svg viewBox="0 0 64 64" aria-hidden="true">
+                  <rect
+                    x="15"
+                    y="29"
+                    width="34"
+                    height="24"
+                    rx="3"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M23 29v-8a9 9 0 0 1 18 0v8"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="6"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <h3 class="service-title fw-bolder">Web Security</h3>
+              <p class="service-text mx-auto">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+                maxime quam architecto quo inventore harum ex magni, dicta
+                impedit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section bg-light" id="portfolio">
+        <div class="container">
+          <div class="section-heading text-center">
+            <h2 class="text-uppercase fw-bolder">Portfolio</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+              <article class="portfolio-card bg-white text-center h-100">
+                <img
+                  class="img-fluid w-100"
+                  src="resources/portfolio/01-thumbnail.jpg"
+                  alt="Threads project"
+                />
+                <div class="portfolio-caption">
+                  <h3 class="fw-bolder">Threads</h3>
+                  <p>Illustration</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="portfolio-card bg-white text-center h-100">
+                <img
+                  class="img-fluid w-100"
+                  src="resources/portfolio/02-thumbnail.jpg"
+                  alt="Explore project"
+                />
+                <div class="portfolio-caption">
+                  <h3 class="fw-bolder">Explore</h3>
+                  <p>Graphic Design</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="portfolio-card bg-white text-center h-100">
+                <img
+                  class="img-fluid w-100"
+                  src="resources/portfolio/03-thumbnail.jpg"
+                  alt="Finish project"
+                />
+                <div class="portfolio-caption">
+                  <h3 class="fw-bolder">Finish</h3>
+                  <p>Identity</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="portfolio-card bg-white text-center h-100">
+                <img
+                  class="img-fluid w-100"
+                  src="resources/portfolio/04-thumbnail.jpg"
+                  alt="Lines project"
+                />
+                <div class="portfolio-caption">
+                  <h3 class="fw-bolder">Lines</h3>
+                  <p>Branding</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="portfolio-card bg-white text-center h-100">
+                <img
+                  class="img-fluid w-100"
+                  src="resources/portfolio/05-thumbnail.jpg"
+                  alt="Southwest project"
+                />
+                <div class="portfolio-caption">
+                  <h3 class="fw-bolder">Southwest</h3>
+                  <p>Website Design</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="portfolio-card bg-white text-center h-100">
+                <img
+                  class="img-fluid w-100"
+                  src="resources/portfolio/06-thumbnail.jpg"
+                  alt="Window project"
+                />
+                <div class="portfolio-caption">
+                  <h3 class="fw-bolder">Window</h3>
+                  <p>Photography</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section bg-light" id="team">
+        <div class="container">
+          <div class="section-heading text-center">
+            <h2 class="text-uppercase fw-bolder">Our Amazing Team</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+
+          <div class="row g-5 text-center">
+            <div class="col-lg-4">
+              <img
+                class="team-photo rounded-circle"
+                src="resources/team/1.jpg"
+                alt="Kay Garland"
+              />
+              <h3 class="team-title fw-bolder">Kay Garland</h3>
+              <p class="team-role">Lead Designer</p>
+              <div class="social-links d-flex justify-content-center gap-3">
+                <a href="#" aria-label="Twitter">t</a>
+                <a href="#" aria-label="Facebook">f</a>
+                <a href="#" aria-label="LinkedIn">in</a>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <img
+                class="team-photo rounded-circle"
+                src="resources/team/2.jpg"
+                alt="Larry Parker"
+              />
+              <h3 class="team-title fw-bolder">Larry Parker</h3>
+              <p class="team-role">Lead Marketer</p>
+              <div class="social-links d-flex justify-content-center gap-3">
+                <a href="#" aria-label="Twitter">t</a>
+                <a href="#" aria-label="Facebook">f</a>
+                <a href="#" aria-label="LinkedIn">in</a>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <img
+                class="team-photo rounded-circle"
+                src="resources/team/3.jpg"
+                alt="Diana Petersen"
+              />
+              <h3 class="team-title fw-bolder">Diana Petersen</h3>
+              <p class="team-role">Lead Developer</p>
+              <div class="social-links d-flex justify-content-center gap-3">
+                <a href="#" aria-label="Twitter">t</a>
+                <a href="#" aria-label="Facebook">f</a>
+                <a href="#" aria-label="LinkedIn">in</a>
+              </div>
+            </div>
+          </div>
+
+          <p class="team-note mx-auto text-center">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
+            laboriosam veritatis, quos non quis ad perspiciatis, totam corporis
+            ea, alias ut unde.
+          </p>
+        </div>
+      </section>
+
+      <section class="client-logos">
+        <div class="container">
+          <div class="row gy-4 align-items-center text-center">
+            <div class="col-sm-6 col-lg-3">
+              <img src="resources/logos/envato.jpg" alt="Envato" />
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <img src="resources/logos/designmodo.jpg" alt="Designmodo" />
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <img src="resources/logos/themeforest.jpg" alt="Themeforest" />
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <img
+                src="resources/logos/creative-market.jpg"
+                alt="Creative Market"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer py-4" id="contact">
+      <div class="container">
+        <div class="row align-items-center gy-3">
+          <div class="col-lg-4 text-center text-lg-start">
+            Copyright &copy; Your Website 2020
+          </div>
+          <div class="col-lg-4">
+            <div class="social-links d-flex justify-content-center gap-3">
+              <a href="#" aria-label="Twitter">t</a>
+              <a href="#" aria-label="Facebook">f</a>
+              <a href="#" aria-label="LinkedIn">in</a>
+            </div>
+          </div>
+          <div class="col-lg-4 text-center text-lg-end footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
